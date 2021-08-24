@@ -1,0 +1,26 @@
+@supports (font-variant-ligatures: discretionary-ligatures){
+@font-face {
+  font-family: "AristellSans-Regular";
+  src: url("./fonts/Aristelle-Font-My-Creative-Land/DesktopFonts/AristelleSans-Regular.otf") format('opentype');
+  font-variant-ligatures: discretionary-ligatures;
+  font-feature-settings: "liga" 1, "dlig" 1;
+  -moz-font-feature-settings: "liga" 1, "dlig" 1;
+  -ms-font-feature-settings: "liga" 1, "dlig" 1;
+  -o-font-feature-settings: "liga" 1, "dlig" 1;
+  -webkit-font-feature-settings: "liga" 1, "dlig" 1;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+}

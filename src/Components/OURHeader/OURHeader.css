@@ -1,0 +1,21 @@
+.OURheader {
+    
+    background-color: #ddbba2;
+    background-position: center;
+    background-size: cover;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: bottom;
+    text-align: center;
+    font-size: calc(40px + 2vmin);
+    color: white;
+    font-family: AristellSans-Regular;
+    z-index: 0;
+    padding: 5% 0 5%;
+    
+  }
+
+ 
+  

@@ -1,0 +1,38 @@
+.footer{
+    background-color: #fdfdfd;
+    color: #180f0c;
+    /* height: 8vh; */
+    justify-content: center;
+    margin: 0;
+    padding: 0.3em 0.3em 0;
+    font-family: AristellSans-Regular;
+    font-size: calc(14px + 2vmin);
+    font-weight: bold;
+    text-align: center;
+}
+
+.navDiv{
+    padding-bottom: 1em;
+}
+
+.nav{
+    color: #180f0c;
+    font-size: calc(13px + 2vmin);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav:hover{
+    color: #a54a2b;
+}
+
+.icons{
+    color: #180f0c;
+    font-size: calc(15px + 2vmin);
+    padding: 5px;
+}
+
+.icons:hover {
+    color: #a54a2b;
+    cursor: pointer;
+}
