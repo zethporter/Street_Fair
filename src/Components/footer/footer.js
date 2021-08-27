@@ -31,9 +31,9 @@ const footer = () => {
             </Link>
             </div>
             
-            <FaFacebookF onClick={fbookClick} className="icons"/>
-            <FaInstagram onClick={instaClick} className="icons"/>
-            <FaMapMarkerAlt onClick={mapClick} className="icons"/>
+            {/* <FaFacebookF onClick={fbookClick} className="icons"/>
+            <FaInstagram onClick={instaClick} className="icons"/> */}
+            {/* <FaMapMarkerAlt onClick={mapClick} className="icons"/> */}
             
     </div>
     )

@@ -1,7 +1,7 @@
 
   .infoheader {
     
-    background-color: #ddbba2;
+    background-color: #e1dad0;
     background-position: center;
     background-size: cover;
     min-height: 15vh;
@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: bottom;
     font-size: calc(40px + 2vmin);
-    color: white;
+    color: #040404;
     text-align: center;
     z-index: 0;
     font-family: AristellSans-Regular;

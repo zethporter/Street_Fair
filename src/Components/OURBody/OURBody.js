@@ -10,9 +10,11 @@ const OURBody = () => {
           extraction operations and in anti-child trafficking efforts to bring 
           an end to child slavery.
         </p>
-        <br></br>
+        <p>1 in 4 slaves today is a child. O.U.R. executes rescue mission in 28 countries and 26 US states in 
+          tandem with local law enforcement.
+        </p>
         <p>
-          They Have a six step process for rescuing children
+          They Have a six step process for rescuing children:
         </p>
         
         <ol className="process">
@@ -32,7 +34,7 @@ const OURBody = () => {
             Recover the children
           </li>
           <li>
-            Arrest, try, and convict the perpetrators
+            Arrest, try and convict the perpetrators
           </li>
         </ol>
       </div>

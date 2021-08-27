@@ -9,6 +9,7 @@ const donoBtn = () => {
 
     return(
       <div className="btnHolder">
+          <p className='donoText'>Help us meet our goal of raising $10,000</p>
           <button className="btn" onClick={donoClick}>
               Donate to Operation Underground Railroad 
           </button>

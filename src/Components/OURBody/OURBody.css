@@ -1,5 +1,5 @@
 .OURbody_div{
-    background-color: #b26c39;
+    background-color: #e1dad0;
     min-height: 5vh;
     /* height: 400px; */
     display: flex;
@@ -7,9 +7,13 @@
     align-items: center;
     justify-content: bottom;
     font-size: calc(25px + 2vmin);
-    color: white;
+    color: #040404;
     padding: .8em 0.2em 0.7em;
     font-family: AristellSans-Regular;
+}
+
+p{
+    padding: 0 0 2vh;
 }
 
 .process{

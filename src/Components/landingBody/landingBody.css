@@ -4,7 +4,7 @@ p{
   text-align: center;
 }  
   .App-logo {
-    height: 40vmin;
+    height: 50vmin;
     pointer-events: none;
     padding: 2vh 0;
   }
@@ -26,9 +26,9 @@ p{
     color: white;
     padding-top: 0;
     text-align: center;
-    padding: 10vh 0 20vh;
+    padding: 10vh 0 15vh;
     font-family: AristellSans-Regular;
-    border: 15px solid #fdfdfd;
+    /* border: 15px solid #fdfdfd; */
   }
   
   .App-link {
