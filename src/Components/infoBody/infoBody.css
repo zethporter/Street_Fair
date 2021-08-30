@@ -28,5 +28,9 @@
 }
 
 .email{
-    color: #6a331e;
+    color: #575735;
+}
+
+.email:hover{
+    cursor: pointer;
 }

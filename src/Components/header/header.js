@@ -17,19 +17,17 @@ const header = () => {
 
     return(
         <div className="header">
-            <div>
-            <Link className='nav' to={'/'}>
+            <Link className='headerNav' to={'/'}>
                  Home 
             </Link>
 
-            <Link className='nav' to={'/info'}>
+            <Link className='headerNav' to={'/info'}>
                 Information
             </Link>
             
-            <Link className='nav' to={'/OUR'}>
+            <Link className='headerNav' to={'/OUR'}>
                 O.U.R.
             </Link>
-            </div>
             
             {/* <FaFacebookF onClick={fbookClick} className="icons"/>
             <FaInstagram onClick={instaClick} className="icons"/> */}

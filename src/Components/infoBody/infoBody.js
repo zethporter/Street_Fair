@@ -1,11 +1,13 @@
 import React from 'react';
 import './infoBody.css';
+// import { Alert } from 'react-alert';
 
 const infoBody = () => {
 
-  // const Mailto = (email, children) =>{
-  //   return <a href={`mailto:${email}`}>{children}</a>;
-  // }
+  const copyEmail = () =>{
+    navigator.clipboard.writeText('swhitkimball@gmail.com');
+    alert("'swhitkimball@gmail.com' was copied to your clipboard");
+  }
 
     return(
         
@@ -23,7 +25,7 @@ const infoBody = () => {
           Raffle, 
           Spook Alley
         </p>
-        <p className='asterix'>* Please contact Whitney Page <a className='email'>swhitkimball@gmail.com</a> by October 1st to reserve your spot.</p>
+        <p className='asterix'>* Please contact Whitney Page <a onClick={ copyEmail } className='email'>swhitkimball@gmail.com</a> by October 1st to reserve your spot.</p>
         <p className='asterix'>
           All activities are included in the price of admission except any items you wish to purchase at the bake sale, pumpkin patch, or raffle tickets. 
         </p>
