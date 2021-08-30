@@ -26,3 +26,7 @@
     font-size: calc(35px + 2vmin);
     font-weight: 600;
 }
+
+.email{
+    color: #6a331e;
+}

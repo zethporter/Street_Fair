@@ -5,11 +5,10 @@ import './OURHeader.css';
 const OURHead = () => {
     return(
         
-      <header className="OURheader {
-        ">
-        <div className="headerText">
+      <header style={{ backgroundImage: 'url(/images/OUR.png' }} className="OURheader">
+        {/* <div className="headerText">
           Operation Underground Railroad
-        </div>
+        </div> */}
       </header>
     
     )

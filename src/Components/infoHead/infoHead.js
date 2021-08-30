@@ -4,12 +4,11 @@ import './infoHead.css';
 const infoHead = () => {
     return(
         
-      <header className="infoheader">
-        <p className="headerText">
+      <header style={{ backgroundImage: 'url(/images/Information.png' }} className="infoheader">
+        {/* <p className="headerText">
          Information
-         </p>
+         </p> */}
       </header>
-    // style={{ backgroundImage: 'url(/images/pumkins.jpg)' }} 
     )
 }
 

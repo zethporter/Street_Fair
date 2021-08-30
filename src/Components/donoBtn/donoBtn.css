@@ -3,6 +3,10 @@
     font-size: calc(25px + 2vmin);
     padding: 0 0 2vh;
 }
+.donoSubText{
+    color: #040404;
+    font-size: calc(12px + 2vmin);
+}
 
 .btnHolder{
     background-color: #e1dad0;
@@ -11,21 +15,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: bottom;
-    font-size: calc(40px + 2vmin);
-    color: white;
+    /* font-size: calc(40px + 2vmin); */
+    /* color: whit/e; */
     padding: .8em 0 .7em;
     font-family: AristellSans-Regular;
 }
 
 .btn{
-    font-family: AristellSans-Regular;
+    /* font-family: AristellSans-Regular; */
     font-size: calc(35px + 2vmin);
-    max-width: 90%;
+    /* max-width: 90%; */
+    width: 90%;
     background-color: #575735;
     border: none;
+    text-align: center;
 }
 
 .btn:hover{
     background-color: #858556;
     cursor: pointer;
+}
+
+.donoImg{
+    height: 20vmin;
+    pointer-events: none;
+    padding: 2vh 0 0;
+    position: relative;
 }

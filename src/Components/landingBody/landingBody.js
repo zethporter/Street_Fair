@@ -15,8 +15,10 @@ const header = () => {
         <br></br>
         <p>All Proceeds will benefit operation underground Railroad</p>
         <br></br>
-        <p>Admission: $10.00 per person</p>
-        
+        <p>Admission: $10.00 per person</p> 
+        <p className="landingSubText">
+          If you would like to purchase admission in advance, please follow the link on the Operation Underground Railroad
+        </p>
       </header>
     </div>
     )

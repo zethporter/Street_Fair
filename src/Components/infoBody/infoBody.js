@@ -2,6 +2,11 @@ import React from 'react';
 import './infoBody.css';
 
 const infoBody = () => {
+
+  // const Mailto = (email, children) =>{
+  //   return <a href={`mailto:${email}`}>{children}</a>;
+  // }
+
     return(
         
       <div className="body_div">
@@ -18,7 +23,7 @@ const infoBody = () => {
           Raffle, 
           Spook Alley
         </p>
-        <p className='asterix'>* Please contact Whitney Page <a mailto='swhitkimball@gmail.com'>swhitkimball@gmail.com</a> by October 1st to reserve your spot.</p>
+        <p className='asterix'>* Please contact Whitney Page <a className='email'>swhitkimball@gmail.com</a> by October 1st to reserve your spot.</p>
         <p className='asterix'>
           All activities are included in the price of admission except any items you wish to purchase at the bake sale, pumpkin patch, or raffle tickets. 
         </p>

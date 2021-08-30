@@ -3,6 +3,11 @@ p{
   margin: 0;
   text-align: center;
 }  
+
+.landingSubText{
+  font-size: calc(10px + 2vmin);
+}
+
   .App-logo {
     height: 50vmin;
     pointer-events: none;
@@ -26,7 +31,7 @@ p{
     color: white;
     padding-top: 0;
     text-align: center;
-    padding: 10vh 0 15vh;
+    padding: 0 10px 10vh;
     font-family: AristellSans-Regular;
     /* border: 15px solid #fdfdfd; */
   }
