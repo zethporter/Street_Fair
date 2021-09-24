@@ -4,7 +4,7 @@ import './donoBtn.css';
 const donoBtn = () => {
 
     const donoClick = () => {
-        window.open('https://my.ourrescue.org/fundraisers/fall-street-fair')
+        window.open('https://my.ourrescue.org/general-donate')
     };
 
     return(
