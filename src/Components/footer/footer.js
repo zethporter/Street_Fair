@@ -16,7 +16,7 @@ const footer = () => {
 
   return (
     <div className="footer">
-      <div className="navDiv">
+      <div className="navDiv BruceClass">
         <Link className="nav" to={"/info"}>
           More info
         </Link>
@@ -27,6 +27,9 @@ const footer = () => {
         |
         <Link className="nav" to={"/"}>
           Home
+        </Link>
+        <Link className="nav" to={"/Bruce"}>
+          Bruce
         </Link>
         <Link className="nav" to={"/ZethPorter"}>
           Zeth Porter
