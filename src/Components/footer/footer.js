@@ -13,15 +13,6 @@ const footer = () => {
   const mapClick = () => {
     window.open("https://goo.gl/maps/FSqTYpgAYW1RZ65x5");
   };
-  const fbookClick = () => {
-    window.open("#");
-  };
-  const instaClick = () => {
-    window.open("#");
-  };
-  const mapClick = () => {
-    window.open("https://goo.gl/maps/FSqTYpgAYW1RZ65x5");
-  };
 
   return (
     <div className="footer">
@@ -39,6 +30,9 @@ const footer = () => {
         </Link>
         <Link className="nav" to={"/Bruce"}>
           Bruce
+        </Link>
+        <Link className="nav" to={"/ZethPorter"}>
+          Zeth Porter
         </Link>
       </div>
 
